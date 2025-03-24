@@ -1,0 +1,43 @@
+body { 
+    font-family: Arial, sans-serif; 
+    width: 320px; 
+    padding: 10px; 
+    overflow-x: hidden; 
+  }
+  
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    table-layout: fixed;
+  }
+  
+  th, td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+  }
+  
+  th { 
+    background-color: #f4f4f4; 
+  }
+  
+  td a { 
+    display: block; 
+    max-width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    text-decoration: none; 
+    color: blue; 
+  }
+  
+  td a:hover { 
+    white-space: normal; 
+    word-wrap: break-word; 
+    background: #f8f8f8;
+    padding: 2px;
+  }
+  
